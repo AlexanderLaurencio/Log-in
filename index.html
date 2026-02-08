@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=DynaPuff:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="form-container">
+        <form class="form">
+            <h1 class="form__h1">Log in</h1>
+            <input type="text" id="inputName" class="form__name" placeholder="User" minlength="5" maxlength="40">
+            <input type="email" id="inputEmail" class="form__email" placeholder="Email">
+            <input type="password" id="inputPassword" class="form__password" placeholder="Password" minlength="8" maxlength="20">
+            <span class="form__span">Don't have an account? <a href="#" class="span__a">register</a></span>
+            <button class="form__button" id="inputButton">Log in</button>
+        </form>
+        <div class="register__options">
+            <h2 class="register__h2">Login with:</h2>
+            <div class="img-container">
+            <img src="images/google.png" class="register__img" alt="">
+            <img src="images/reddit.png" class="register__img" alt="">
+            <img src="images/github.png" class="register__img" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
