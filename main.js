@@ -13,7 +13,7 @@ inputButton.addEventListener("click", (event) =>{
     let password = inputPassword.value.trim();
 
     if (!user || !email || !password){
-        alert("Changes applied bitch");
+        alert("Fill all the fields");
         navigator.vibrate(200, 100, 200);
     } else (
         alert("You've been registered successfully")
